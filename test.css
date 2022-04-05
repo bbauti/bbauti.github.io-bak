@@ -3,5 +3,20 @@ body {
 }
 
 div.menu {
-    color: #C7C7C7
+    color: #C7C7C7;
+    font-family: Futura;
+    font-weight: bold;
+}
+
+a:link {
+    color: #C7C7C7;
+    text-decoration: none;
+}
+.logocolor {
+    border-radius: 10%;
+}
+
+@font-face {
+    font-family: Futura;
+    src: url(recursos/futur.ttf);
 }
