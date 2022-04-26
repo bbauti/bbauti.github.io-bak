@@ -1,7 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #191919;
 }
 
-div.menu {
-    color: #C7C7C7
+li, a {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    color: #C7C7C7;
+    text-decoration: none;
 }
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.nlinks {
+    list-style: none;
+    display: flex;
+}
+
+.nlinks li {
+    padding: 0px 20px;
+    display: inline-block;
+}
+
+/* div.menu {
+    color: #C7C7C7;
+    font-family: Futura;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+} */
+
+/* a:link {
+    color: #C7C7C7;
+    text-decoration: none;
+} */
+.logocolor {
+    border-radius: 10%;
+}
+
+/* .arriba {
+    display: flex;
+    justify-content: center;
+    margin: 10pc;
+    flex-direction: row;
+} */
+
+.logoblanco {
+    display: flex;
+}
+
+/* @font-face {
+    font-family: Futura;
+    src: url(recursos/futur.ttf);
+} */
