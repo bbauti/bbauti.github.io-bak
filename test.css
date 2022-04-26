@@ -66,3 +66,24 @@ header {
     font-family: Futura;
     src: url(recursos/futur.ttf);
 } */
+
+
+.content {
+    /* background-color: yellow;     */
+}
+
+.row {
+    display: flex;
+    /* background-color: red; */
+}
+
+.cell {
+    box-flex: 1;
+    flex: auto; 
+    padding: 10px;
+    margin: 10px;
+    /* background-color: green;
+    border: 1px solid red; */
+    text-align: center;
+}
+img {max-width:60%; margin: auto;}
